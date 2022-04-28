@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Exercises {
 
     public static void main(String[] args) {
-        Exercise2();
+        Exercise3();
     }
 
     private static void Exercise1() {
@@ -24,6 +24,18 @@ public class Exercises {
         int sum = (Integer.parseInt(num1) + Integer.parseInt(num2));
 
         System.out.println(sum);
+    }
+
+    private static void Exercise3() {
+        var A = -5 + 8 * 6;
+        var B = (55+9) % 9;
+        var C = 20 + -3 * 5 / 8;
+        var D = 5 + 15 / 3 * 2 - 8 % 3;
+
+        System.out.println(A);
+        System.out.println(B);
+        System.out.println(C);
+        System.out.println(D);
     }
 
 }
