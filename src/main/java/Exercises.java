@@ -38,4 +38,8 @@ public class Exercises {
         System.out.println(D);
     }
 
+
+
+
+
 }
